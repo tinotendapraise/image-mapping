@@ -4,8 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="sytlesheer" href="./imagemapping.css" />
   </head>
   <body>
-    <img src="./source/coffee.png" alt="" />
+    <h1>image mapping challenge</h1>
+    <div class="img-map">
+      <img
+        src="./source/coffee.png"
+        alt="Image Map"
+        usemap="#image-map"
+        target="_blank"
+      />
+      <map name="image-map">
+        <area
+          shape="rect"
+          coords="34, 44,270, 350"
+          href="https://gocoderz.com/blog/coding-trivia-for-teachers-the-facts/"
+        />
+        <area
+          shape="circle"
+          coords="421, 531, 200"
+          href="https://medium.com/better-programming/programmers-love-hate-relationship-with-coffee-weighing-the-pros-and-cons-e4a461421e54"
+          alt=""
+          target="_blank"
+        />
+      </map>
+    </div>
   </body>
 </html>
